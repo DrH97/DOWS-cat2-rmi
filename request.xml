@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://localhost/universities">
+<soapenv:Header/>
+<soapenv:Body>
+    <gs:getUniversityRequest>
+        <gs:name>Kenyatta</gs:name>
+    </gs:getUniversityRequest>
+</soapenv:Body>
+</soapenv:Envelope>
+
+<!--<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">-->
+<!--<SOAP-ENV:Header/>-->
+<!--<SOAP-ENV:Body>-->
+<!--    <ns2:getUniversityResponse xmlns:ns2="http://localhost/universities">-->
+<!--        <ns2:university>-->
+<!--            <ns2:name>Strathmore</ns2:name>-->
+<!--            <ns2:location>Ole Sangale</ns2:location>-->
+<!--            <ns2:yearFounded>1961</ns2:yearFounded>-->
+<!--        </ns2:university>-->
+<!--    </ns2:getUniversityResponse>-->
+<!--</SOAP-ENV:Body>-->
+<!--</SOAP-ENV:Envelope>-->
